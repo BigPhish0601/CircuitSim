@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/fgcuLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="186.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/simpleCircuitSimulatorLogo.png" />
+         </image>
+      </ImageView>
+      <Label contentDisplay="CENTER" layoutX="42.0" layoutY="200.0" text="Created by Florida Get Crunk Universiteam&#10;" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="128.0" layoutY="231.0" text="Giovanni Gastaldo&#10;Isaac R. Cox&#10;Brannon Centeno&#10;Kira Herb&#10;Shane Jones" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

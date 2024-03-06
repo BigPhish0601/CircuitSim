@@ -1,0 +1,15 @@
+
+.jfx-slider .thumb{
+   -fx-background-color:black;
+
+
+}
+
+.combo-box{
+
+}
+
+.combo-box .menu-item:focused {
+  -fx-background-color: yellow ; /* for example */
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" style="-fx-background-opacity: 0;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FGCU.SplashScreenController">
+   <children>
+      <ImageView fitHeight="129.0" fitWidth="370.0" layoutX="15.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/simpleCircuitSimulatorLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="62.0" layoutX="324.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/fgcuLogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
